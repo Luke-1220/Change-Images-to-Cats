@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "Change Images to Cats",
+    "description": "Cats",
+    "version": "1.0.0.0",
+    "description": "ページの画像が、可愛い猫の画像に変わります。",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["script.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    }],
+    "web_accessible_resources": [
+        "cat1.jpg",
+        "cat2.jpg",
+        "cat3.jpg",
+        "cat4.jpg",
+        "cat5.jpg",
+        "cat6.jpg",
+        "cat7.jpg",
+        "cat8.jpg",
+        "cat9.jpg",
+        "cat10.jpg",
+        "cat11.jpg",
+        "cat12.jpg",
+        "cat13.jpg",
+        "cat14.jpg",
+        "cat15.jpg",
+        "cat16.jpg",
+        "cat17.jpg",
+        "cat18.jpg",
+        "cat19.jpg",
+        "cat20.jpg",
+        "cat21.jpg"
+    ]
+}
