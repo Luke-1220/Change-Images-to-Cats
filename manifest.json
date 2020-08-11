@@ -5,9 +5,9 @@
     "version": "1.0.0.0",
     "description": "ページの画像が、可愛い猫の画像に変わります。",
     "icons": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
     },
     "content_scripts": [{
         "matches": ["<all_urls>"],
@@ -16,26 +16,26 @@
         "all_frames": true
     }],
     "web_accessible_resources": [
-        "cat1.jpg",
-        "cat2.jpg",
-        "cat3.jpg",
-        "cat4.jpg",
-        "cat5.jpg",
-        "cat6.jpg",
-        "cat7.jpg",
-        "cat8.jpg",
-        "cat9.jpg",
-        "cat10.jpg",
-        "cat11.jpg",
-        "cat12.jpg",
-        "cat13.jpg",
-        "cat14.jpg",
-        "cat15.jpg",
-        "cat16.jpg",
-        "cat17.jpg",
-        "cat18.jpg",
-        "cat19.jpg",
-        "cat20.jpg",
-        "cat21.jpg"
+        "img/cat1.jpg",
+        "img/cat2.jpg",
+        "img/cat3.jpg",
+        "img/cat4.jpg",
+        "img/cat5.jpg",
+        "img/cat6.jpg",
+        "img/cat7.jpg",
+        "img/cat8.jpg",
+        "img/cat9.jpg",
+        "img/cat10.jpg",
+        "img/cat11.jpg",
+        "img/cat12.jpg",
+        "img/cat13.jpg",
+        "img/cat14.jpg",
+        "img/cat15.jpg",
+        "img/cat16.jpg",
+        "img/cat17.jpg",
+        "img/cat18.jpg",
+        "img/cat19.jpg",
+        "img/cat20.jpg",
+        "img/cat21.jpg"
     ]
 }

@@ -8,7 +8,7 @@ function Change(){
 
   for (image of images){
 
-    const cats = [...Array(20).keys()].map(i => "cat" + ++i + ".jpg");
+    const cats = [...Array(20).keys()].map(i => "/img/cat" + ++i + ".jpg");
     const cat = cats[Math.floor(Math.random() * cats.length)];
     const url = chrome.extension.getURL(cat);
     console.log(url);
