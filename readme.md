@@ -4,11 +4,11 @@
 
 Images on pages change to cute cat images.
 
-ページの画像が、可愛い猫の画像に変わります。
+ページの画像が、猫の画像に変わります。
 
 ### Download
 
-Chromeウェブストア → 準備中
+Chromeウェブストア → [Here](https://chrome.google.com/webstore/detail/change-images-to-cats/bobabbinocncmnegncecbgbidofohoap)
 
 ### SS
 
